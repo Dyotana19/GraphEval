@@ -10,8 +10,8 @@
 EXE=src/astarix/release/astarix
 
 # Check that two arguments were provided
-if [ $# -ne 3 ]; then
-  echo "Usage: $0 <graph.gfa> <reads.fasta> <graphname>"
+if [ $# -ne 4 ]; then
+  echo "Usage: $0 <graph.gfa> <reads.fasta> <graphname> <threadnum>"
   exit 1
 fi
 
