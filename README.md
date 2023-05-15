@@ -35,5 +35,6 @@ To run this use `python graphComp.py`.
 
 Using the seqrequester tool, we produced a set of simulated reads without errors, which are 1000 base pairs in length, from the human MHC genome. These reads can be accessed in the `GraphEval/Reads/input.fasta` file. Furthermore, we created graphs using three pan-genome graph building tools (minigraph, minichain1.1, and minichain1.2) with 59 MHC haplotypes. The resulting alignment data, saved in the `.tsv` format, was used to compare the graphs, and their respective files can be found in the `test` folder.
 
+By leveraging the output produced by GraphEval.py, we conducted an in-depth analysis and comparison of alignment accuracy distribution among different pangenome graphs using karyotypeR plots.
 ![Positional distribution of alignment accuracy through karyoploteR](Rplot_MG.png)
 
